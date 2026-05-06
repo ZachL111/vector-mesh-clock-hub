@@ -1,0 +1,17 @@
+{
+  "repo": "vector-mesh-clock-hub",
+  "thresholds": {
+    "signal": 2,
+    "slack": 1,
+    "confidence": 1,
+    "drag": 5,
+    "ship": 186,
+    "watch": 122
+  },
+  "terms": [
+    "quorum health",
+    "lease drift",
+    "replica lag",
+    "membership churn"
+  ]
+}
