@@ -59,3 +59,7 @@ foreach ($pathPattern in $knownPaths) {
 }
 
 sqlite3 :memory: ".read tests/test.sql"
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-vector-mesh-clock-detail.ps1
+
+sqlite3 :memory: ".read tests/domain_review.sql"
